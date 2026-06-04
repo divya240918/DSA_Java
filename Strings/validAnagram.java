@@ -1,3 +1,17 @@
+// Approach:
+// 1. First check if both strings have the same length.
+//    If lengths are different, they cannot be anagrams.
+// 2. Create a frequency array of size 26 to store character counts.
+// 3. Traverse both strings simultaneously.
+//    - Increment count for characters of first string.
+//    - Decrement count for characters of second string.
+// 4. After traversal, check the frequency array.
+//    If any element is not 0, frequencies don't match.
+// 5. If all elements are 0, both strings are anagrams.
+
+//Time Complexity = O(n)
+//Space Complexity = O(1)
+
 package Strings;
 import java.util.Scanner;
 
