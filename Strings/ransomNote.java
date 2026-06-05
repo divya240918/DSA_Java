@@ -1,3 +1,26 @@
+// #Approach:
+// 1) Create a frequency array of size 26 to store
+// the count of each lowercase character.
+//
+// 2) Traverse the magazine string and increment
+// the frequency of each character.
+//
+// 3) Traverse the ransomNote string and decrement
+// the frequency of each character.
+//
+// 4) If any frequency becomes negative, it means
+// ransomNote requires more occurrences of that
+// character than magazine provides, so return false.
+//
+// 5) If no frequency is negative, return true.
+
+
+// #Time Complexity: O(m + n)
+// m = length of magazine
+// n = length of ransomNote
+
+// #Space Complexity: O(1)
+
 package Strings;
 
 import java.util.Scanner;
