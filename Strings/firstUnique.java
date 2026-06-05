@@ -1,3 +1,14 @@
+// Approach
+// Create a frequency array of size 26 to store the count of each lowercase character.
+// Traverse the string once and count the frequency of every character.
+// Traverse the string again from left to right.
+// For each character, check its frequency in the array.
+// If the frequency is 1, return its index because it is the first non-repeating character.
+// If no character with frequency 1 is found, return -1.
+
+// Time Complexity = O(n)
+// Space Complexity = O(1)
+
 package Strings;
 import java.util.*;
 
